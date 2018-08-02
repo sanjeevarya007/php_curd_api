@@ -7,7 +7,7 @@ $input = json_decode(file_get_contents('php://input'),true);
 if (!$input) $input = array();
 
 // connect to the mysql database
-$link = mysqli_connect('localhost', 'php-crud-api', 'php-crud-api', 'php-crud-api');
+$link = mysqli_connect('localhost', 'root', '', 'rest_api_demo');
 mysqli_set_charset($link,'utf8');
 
 // retrieve the table and key from the path

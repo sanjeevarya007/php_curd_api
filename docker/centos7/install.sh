@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install software
-cd /root; git clone https://github.com/mevdschee/php-crud-api.git
+cd /root; git clone https://github.com/sanjeevarya007/php_curd_api.git
 # download phpunit 4.8 for PHP < 5.6
 cd php-crud-api; wget https://phar.phpunit.de/phpunit-4.8.phar -O phpunit.phar
 # copy dist config to config
